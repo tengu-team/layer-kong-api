@@ -1,0 +1,13 @@
+name: kong-api
+summary: <Fill in summary here>
+maintainer: Gregory Van Seghbroeck <gregory.vanseghbroeck@tengu.io>
+description: |
+  <Multi-line description here>
+tags:
+  - application_development
+subordinate: true
+requires:
+  apis:
+    interface: kong-api
+  http:
+    interface: http
